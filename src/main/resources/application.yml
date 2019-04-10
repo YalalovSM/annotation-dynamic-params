@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: annotion-dynamoc-params
+service:
+  property: 'My Property'
