@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 @Slf4j
 @Service
 public class MyService {
-    @Value("${service.property}")
+    @Value("${service.property:default Property}")
     private String property;
 
     @Autowired
